@@ -1,0 +1,42 @@
+body{
+    background:url("/squard.jpg");
+   background-repeat: no repeat;
+   background-size: cover;
+}
+#heading{
+    color:black;
+    background:orangered;
+    height: 70px;
+    width:300px;
+    text-align: center;
+    margin:auto;
+}
+#content
+{
+    display: flex;
+    background: rgba(0, 0, 0, 0.6);
+    height: 500px;
+    width:1400px;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+img{
+    height: 170px;
+    width: 150px;
+    border: 3px solid wheat;
+     border-top-left-radius: 30%;
+     border-bottom-right-radius: 20%;
+    margin-top:70px;
+    margin-left:20px;
+}
+#title{
+
+    background:yellow;
+    display: flex;
+    width:1000px;
+    height: 90px;
+    margin:auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
